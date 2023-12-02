@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+        DIV, "divison" kelimesinin kısaltması olarak HTML dünyasına giriş yapmöıştır. Asıl anlamıu tasarımsal alanlardır. Birbirinden bağımsız olarak çok daha görsel ve kontrol edilmesi kolay tasarım alanlarını oluşturma ihtiyacı sonrası hayatımıza girmiştir. ÖZellikle tablolar ile yapılan tasarımlar uzun zaman ve peformans istemi div kullanımının önemini gün geçtikçe arttırmaktadır.
+    </p>
+    <p>
+        Bazı temel kavramlar: 
+        <ul>
+            <li>id => Site üzerinde ter alan özel bir kontrolü ifade etmek için kullanılan özniteliktir. Bir ID benzersizdir ve W3C kurallarına göre kullanılan id başka bir HTML elementi tarafında kullanılamaz.</li>
+            <li>Width => Bir elementin genişliğini temsil eder.</li>
+            <li>Height => Bir elementin yüksekliğini temsil eder.</li>
+            <li>Margin-Left => Bir elementin sol taraftan dış çerçeveye olan uzaklığını temsil eder.</li>
+            <li>Margin-Right => Bir elementin sağ taraftan dış çerçeveye olan ozaklığını temsil eder.<br><strong>NOT: Bir elemente margin-left ve margin right değeri olarak auto girerseniz, o element çözünürlüğünüze göre sayfanın ortasına yerleşir. </strong></li>
+            <li>Float => İlgili tasarımsal alanın hangi yöne dayalı olarak tasarıma dahil edileceği belirtilir. Varsayılan olarak bir div boyutu ne olursa olsun, o yükseklikte alanı kendisine ayırır. Birden fazla tasarımsal alanı yan yana eklemek için float değerine bir atama yapabilirsiniz. </li>
+        </ul>
+    </p>
+    <div id="main-container" style="width: 700px; height: 600px; margin-left: auto; margin-right: auto;">
+        <!--div#banner => id ile birlikte oluşturur.-->
+        <div id="banner" style="width: 700px; height: 50px; background-color: black;"></div>
+        <div id="menu" style="width: 100px; height:520px; background-color: Orange; float: left;"></div>
+        <div id="icerik" style="width: 600px; height: 520px; background-color: maroon; float:left">
+            <img src="https://cdn.thenewstack.io/media/2021/10/4f0ac3e0-visual_studio_code.png" width="500" height="420" alt="">
+        </div>
+        <div id="footer" style="width: 700px; height: 30px; background-color: lime; float:left"></div>
+    </div>
+  </body>
+</html>
